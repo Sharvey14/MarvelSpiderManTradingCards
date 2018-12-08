@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DF1F2D"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        //Dark Suit
+
+        <TextView
+            android:textColor="#2b3784"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Dark Suit"
+            android:textSize="65px"/>
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_marginLeft="-52dp"
+            android:layout_height="257dp"
+            android:src="@drawable/dark_suit" />
+
+        <TextView
+            android:textColor="#2b3784"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is originally Spider-Man's venom suit but without the alien ingredient, made by Black Cat."
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Has no suit power"
+            android:textColor="#2b3784"
+            android:textSize="65px" />
+
+        //Electrically Insulated Suit
+
+        <TextView
+            android:textColor="#DF1F2D"
+            android:background="#2b3784"
+            android:layout_width="500dp"
+            android:layout_height="50dp"
+            android:text="Anti-Electro Suit"
+            android:textSize="65px"/>
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_marginLeft="-22dp"
+            android:layout_height="230dp"
+            android:src="@drawable/anti_electro_suit"
+            android:layout_marginTop="-15dp"/>
+
+        <TextView
+            android:textColor="#DF1F2D"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:text="This suit was made by Peter Parker's friend and his (sometimes) girlfriend Gwen Stacy to fight Electro."
+            android:background="#2b3784"
+            android:layout_marginTop="-15dp"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:background="#2b3784"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Suit Power: Electric Punch"
+            android:textColor="#DF1F2D"
+            android:textSize="65px" />
+
+        //Iron Spider Man
+
+        <TextView
+            android:textColor="#2b3784"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Iron Spider Suit"
+            android:textSize="65px"/>
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_marginLeft="-59dp"
+            android:layout_height="274dp"
+            android:src="@drawable/iron_spider_suit" />
+
+        <TextView
+            android:textColor="#2b3784"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The suit was made by Tony Stark and was recently in the Avengers: Infinity War movie."
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suit Power: Iron Arms"
+            android:textColor="#2b3784"
+            android:textSize="65px" />
+
+        //Spider Armor MK4 Suit
+
+        <TextView
+            android:textColor="#DF1F2D"
+            android:background="#2b3784"
+            android:layout_width="500dp"
+            android:layout_height="60dp"
+            android:text="Spider Armor MK4 Suit"
+            android:textSize="65px"/>
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_marginLeft="-50dp"
+            android:layout_height="240dp"
+            android:src="@drawable/spider_armor_mk4_suit"
+            android:layout_marginTop="-15dp"/>
+
+        <TextView
+            android:textColor="#DF1F2D"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:text="Peter Parker made this suit, which becomes the most technologically advanced suits. It is made of liquid nanotechnology that can respond to mental and vocal commands."
+            android:background="#2b3784"
+            android:layout_marginTop="-15dp"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:background="#2b3784"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Suit Power: Defense Shield"
+            android:textColor="#DF1F2D"
+            android:textSize="65px" />
+
+        //Spider Punk Suit
+
+        <TextView
+            android:textColor="#2b3784"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Spider Punk Suit"
+            android:textSize="65px"/>
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_marginLeft="-50dp"
+            android:layout_height="237dp"
+            android:src="@drawable/spider_punk_suit" />
+
+        <TextView
+            android:textColor="#2b3784"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This suit was made from one of the spiderverses (Earth-138) which was originally worn by Hobart Brown who joins a spider army."
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suit Power: Rock Out"
+            android:textColor="#2b3784"
+            android:textSize="65px" />
+
+        //Vintage Comic Book Suit
+
+        <TextView
+            android:textColor="#DF1F2D"
+            android:background="#2b3784"
+            android:layout_width="500dp"
+            android:layout_height="50dp"
+            android:text="Vintage Comic Book Suit"
+            android:textSize="65px"/>
+
+        <ImageView
+            android:layout_width="660dp"
+            android:layout_marginLeft="-123dp"
+            android:layout_height="237dp"
+            android:src="@drawable/vintage_comic_book_suit"
+            android:layout_marginTop="-15dp"/>
+
+        <TextView
+            android:textColor="#DF1F2D"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:text="This suit is from the early Amazing Spider Man Comics. It has cel-Shading and stylized black lines to make it pop among the backdrop of the game."
+            android:background="#2b3784"
+            android:layout_marginTop="-15dp"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:background="#2b3784"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Suit Power: Quips(Insults)"
+            android:textColor="#DF1F2D"
+            android:textSize="65px" />
+
+    </LinearLayout>
+
+</ScrollView>
